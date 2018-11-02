@@ -57,6 +57,12 @@ namespace urna_eletronica
                         numCandidato[2] = 10;
                         break;
 
+                    case "14": //Array Posição 2
+                        lblNome.Text = "Sasuke";
+                        lblPartido.Text = "Uchiha";
+                        pctCandidato.Load("sasuke.jpg");
+                        numCandidato[7] = 14;
+                        break;
 
                     case "51": //Array Posição 3
                         lblNome.Text = "Cabo Daciolo";
@@ -165,11 +171,15 @@ namespace urna_eletronica
             MessageBox.Show(
                 "\n\nFernando Haddad: \t\t" + candidatos[0] + "\n\nJair Bolsonaro: \t\t" + candidatos[1] + "\n\nVegeta: \t\t\t" + candidatos[2] + "\n\nCabo Daciolo: \t\t" + candidatos[3] +
                 "\n\nCiro Gomes: \t\t" + candidatos[4] + "\n\nEymael: \t\t\t" + candidatos[5] + "\n\nGeraldo Alckmin: \t\t" + candidatos[6] + "\n\nMarina Silva: \t\t" + candidatos[11] +
-                "\n\nBoulos: \t\t\t" + candidatos[12] + "\n\nVotos Brancos: \t\t" + candidatos[13], "Apuração da Urna");
+                "\n\nBoulos: \t\t\t" + candidatos[12] + "\n\nSasuke: \t\t\t" + candidatos[7] + "\n\nVotos Brancos: \t\t" + candidatos[13], "Apuração da Urna");
+            const string Text1 = "Parabéns ao Candito Eleito";
+            MessageBox.Show(Text1);
         }
 
         //Assim que o ponteiro do mouse sair do objeto, a função é chamada aplicando os valores para cada objeto
         private void sair_MouseLeave(object sender, EventArgs e)
+
+
         {
             lblVotoNulo.Text = "";
             lblNum1.Visible = true;
@@ -179,6 +189,11 @@ namespace urna_eletronica
         private void frmUrna_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

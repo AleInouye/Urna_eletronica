@@ -447,7 +447,7 @@
             this.computarVotosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripComboBox1});
             this.computarVotosToolStripMenuItem.Name = "computarVotosToolStripMenuItem";
-            this.computarVotosToolStripMenuItem.Size = new System.Drawing.Size(159, 23);
+            this.computarVotosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.computarVotosToolStripMenuItem.Text = "Finalizar Votação";
             this.computarVotosToolStripMenuItem.Click += new System.EventHandler(this.computarVotosToolStripMenuItem_Click);
             // 
@@ -473,7 +473,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(766, 409);
+            this.ClientSize = new System.Drawing.Size(766, 405);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pnlUrna);
             this.Controls.Add(this.pnlCandidato);
