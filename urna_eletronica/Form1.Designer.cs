@@ -345,7 +345,7 @@
             // pctCandidato
             // 
             this.pctCandidato.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pctCandidato.Image = ((System.Drawing.Image)(resources.GetObject("pctCandidato.Image")));
+            this.pctCandidato.Image = global::urna_eletronica.Properties.Resources._11047803b1e69ee5f2d6f682f29d18c4;
             this.pctCandidato.Location = new System.Drawing.Point(245, 16);
             this.pctCandidato.Name = "pctCandidato";
             this.pctCandidato.Size = new System.Drawing.Size(173, 169);

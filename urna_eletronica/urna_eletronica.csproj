@@ -66,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +80,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\11047803b1e69ee5f2d6f682f29d18c4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\boulos.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cabo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ciro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\eymael.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\geraldo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\haddad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\marina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sasuke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\vegeta.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
